@@ -1,0 +1,133 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+header h1 {
+    margin: 0;
+}
+
+header p {
+    margin: 5px 0;
+}
+
+section {
+    margin: 40px 0;
+}
+
+section h2 {
+    color: #333;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+/* Add this at the end of your existing styles.css */
+
+nav {
+    background-color: #333;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav li {
+    margin: 0 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+/* Media query for responsive design */
+@media screen and (max-width: 600px) {
+    nav {
+        text-align: center;
+    }
+
+    nav ul {
+        flex-direction: column;
+    }
+
+    nav li {
+        margin: 10px 0;
+    }
+
+    /* Hamburger icon */
+    #menu-icon {
+        display: block;
+        font-size: 20px;
+        cursor: pointer;
+        color: #fff;
+    }
+
+    #menu-icon:hover {
+        opacity: 0.7;
+    }
+
+    #menu-list {
+        display: none;
+    }
+
+    #menu-list.active {
+        display: block;
+    }
+}
+
+/* Add this to your styles.css file to style the Experience section */
+section ul {
+    padding-left: 20px;
+}
+
+section ul ul {
+    list-style-type: circle;
+    margin-top: 5px;
+}
+
+
+/* Add this to your styles.css file for styling the social links in the footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.social-links {
+    margin-top: 10px;
+}
+
+.social-links a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.social-links a:hover {
+    text-decoration: underline;
+}
+

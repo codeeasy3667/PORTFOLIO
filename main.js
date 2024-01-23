@@ -7,5 +7,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
     menuIcon.addEventListener('click', function () {
         menuList.classList.toggle('active');
+        
     });
 });
+
